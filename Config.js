@@ -2,7 +2,7 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "24105114159"],
+global.ownernumber = [ process.env.OWNER_NUMBER || "22367542669"],
 global.ownername = process.env.OWNER_NAME || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
 global.ytname = "YT: kenzo3146"
 global.socialm = "GitHub: toge012345"
@@ -22,7 +22,7 @@ global.wm = "𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨"
 global.link = 'https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z'
 
 //custom prefix
-global.prefa = process.env.PREFIX || ".",
+global.prefa = process.env.PREFIX || "#",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
@@ -42,7 +42,7 @@ global.mess = {
     prem: '💫 *hello senpai, this feature is reserved for premium users only*',
     admin: '💫 *hello senpai, this feature is reserved for admins only*',
     botAdmin: '💫 *senpai, this feature can only be used when the bot is a group admin* ',
-    owner: '💫 *hello senpai, this feature is reserved for the owner only*',
+    owner: '💫 *Chyeng, this feature is reserved for the owner only*',
     group: '💫 *sensei, this feature is exclusively for groups*',
     private: '💫 *hello senpai, this feature is exclusively for private chats*',
     wait: '💫 *hello senpai, in process...* ',    
@@ -52,7 +52,7 @@ module.exports = {
 ownernumber: global.ownernumber,
 ownername: global.ownername,
 AUTO_BLOCK : process.env.PM_BLOCKER,
-STATUS_SAVER : "true",
+STATUS_SAVER : "false",
 ANTI_BOT:"false",
 }
 
